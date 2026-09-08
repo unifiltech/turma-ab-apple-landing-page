@@ -6,11 +6,16 @@
 }
 
 .cabecalho {
+    background: red;
+    height: 90vh;
+}
+
+.cabecalho-navegacao {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background: red;
+    height: 7.5%;
 }
 
 .cabecalho-link {
@@ -22,4 +27,11 @@
 
 .cabecalho-icone {
     padding: 1rem;
+}
+
+.cabecalho-carrossel {
+    background-image: url('images/apple-event.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 92.5%;
 }
